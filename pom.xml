@@ -431,5 +431,16 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>nexus-mvn</id>
+            <name>Nexus Maven Repository</name>
+            <url>http://localhost:8085/nexus/content/groups/mvn</url>
+        </repository>
+    </repositories>
+
     <url>demopetclinic</url>
 </project>
